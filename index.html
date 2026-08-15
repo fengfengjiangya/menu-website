@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>线上小玩具 - 专业脚本商城</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 动态粒子背景 -->
+    <div class="particles-bg">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- 渐变光晕背景 -->
+    <div class="gradient-bg">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="glow glow-3"></div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container glass">
+            <div class="nav-logo">
+                <span class="logo-icon">👑</span>
+                <span class="logo-text">线上小玩具</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#pricing" class="nav-link">价格套餐</a></li>
+                <li><a href="#features" class="nav-link">特色服务</a></li>
+                <li><a href="#contact" class="nav-link">联系我们</a></li>
+            </ul>
+            <button class="nav-btn">立即购买</button>
+        </div>
+    </nav>
+
+    <!-- Hero 区域 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge glass animate-fade-in">
+                <span class="badge-dot"></span>
+                专业脚本 · 稳定护航
+            </div>
+            <h1 class="hero-title animate-slide-up">
+                选择更合适的<span class="gradient-text">套餐</span>
+                <br>解锁更多<span class="gradient-text-2">精彩内容</span>
+            </h1>
+            <p class="hero-subtitle animate-slide-up delay-1">
+                全能菜单 · 顶尖攻防 · Lua加持 · 流畅稳定 · 优异丝滑
+            </p>
+            <div class="hero-actions animate-slide-up delay-2">
+                <a href="#pricing" class="btn-primary">
+                    <span>查看套餐</span>
+                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="#features" class="btn-secondary glass">了解更多</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 价格套餐区域 -->
+    <section id="pricing" class="pricing">
+        <div class="section-header">
+            <h2 class="section-title">精选<span class="gradient-text">价格套餐</span></h2>
+            <p class="section-subtitle">为您量身定制的专业脚本解决方案</p>
+        </div>
+
+        <div class="pricing-grid">
+            <!-- 开be推荐卡片 -->
+            <div class="price-card card-gold animate-float">
+                <div class="card-header">
+                    <div class="card-badge gold-badge">开be专用脚本</div>
+                    <div class="card-title-row">
+                        <span class="card-icon gold">👑</span>
+                        <h3 class="card-title">线上小玩具<br><span class="card-subtitle gold-text">开be推荐</span></h3>
+                    </div>
+                </div>
+
+                <div class="card-tabs">
+                    <div class="tab-item active">词汇</div>
+                    <div class="tab-item">周卡</div>
+                    <div class="tab-item">月卡</div>
+                    <div class="tab-item">季卡</div>
+                    <div class="tab-item">永久</div>
+                </div>
+
+                <div class="price-list">
+                    <div class="price-item">
+                        <span class="item-icon gold-bg">◎</span>
+                        <span class="item-name">词汇</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price">¥210</span>
+                        <span class="item-price highlight">¥480</span>
+                        <span class="item-price gold-text strong">¥980</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="item-icon gold-bg">⚔</span>
+                        <span class="item-name">长矛</span>
+                        <span class="item-price">¥50</span>
+                        <span class="item-price">¥175</span>
+                        <span class="item-price highlight">¥420</span>
+                        <span class="item-price gold-text strong">¥770</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="item-icon gold-bg">🌀</span>
+                        <span class="item-name">风暴pro</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price gold-text strong">¥180</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="item-icon gold-bg">☁</span>
+                        <span class="item-name">及时雨</span>
+                        <span class="item-price">¥40</span>
+                        <span class="item-price">¥125</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price gold-text strong">¥300</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="item-icon gold-bg">👤</span>
+                        <span class="item-name">女神</span>
+                        <span class="item-price">¥35</span>
+                        <span class="item-price">¥90</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price gold-text strong">¥180</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="item-icon gold-bg">🌙</span>
+                        <span class="item-name">彼岸</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price gold-text strong">¥115</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="item-icon gold-bg">👻</span>
+                        <span class="item-name">空灵</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price gold-text strong">¥270</span>
+                    </div>
+                </div>
+
+                <div class="card-features gold-features">
+                    <h4 class="features-title">★ 开be专用脚本优势</h4>
+                    <ul>
+                        <li>全能菜单 顶尖攻防 Lua加持 流畅稳定 优异丝滑</li>
+                        <li>支持随机菜单 切换玩法双UI界面 高度自定义UI主题</li>
+                        <li>稳定行归活动数量个月 可修改战局天气 传承已在编写中…</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 关be推荐卡片 -->
+            <div class="price-card card-blue animate-float delay-1">
+                <div class="card-header">
+                    <div class="card-title-row">
+                        <span class="card-icon blue">💎</span>
+                        <h3 class="card-title">线上小玩具<br><span class="card-subtitle blue-text">关be推荐</span></h3>
+                    </div>
+                </div>
+
+                <div class="card-tabs">
+                    <div class="tab-item active">词汇</div>
+                    <div class="tab-item">周卡</div>
+                    <div class="tab-item">月卡</div>
+                    <div class="tab-item">季卡</div>
+                    <div class="tab-item">永久</div>
+                </div>
+
+                <div class="price-list">
+                    <div class="price-item">
+                        <span class="item-icon blue-bg">A</span>
+                        <span class="item-name">阿尔法</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price blue-text strong">¥160</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="item-icon blue-bg">🍒</span>
+                        <span class="item-name">樱桃</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price blue-text strong">¥420</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="item-icon blue-bg">🌊</span>
+                        <span class="item-name">XiRush</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price blue-text strong">¥158</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="item-icon blue-bg">☀</span>
+                        <span class="item-name">白泽</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price blue-text strong">¥160</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="item-icon blue-bg">🌅</span>
+                        <span class="item-name">日落</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price blue-text strong">¥50</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="item-icon blue-bg">★</span>
+                        <span class="item-name">天若</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price blue-text strong">¥80</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="item-icon blue-bg">♞</span>
+                        <span class="item-name">战马</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price disabled">—</span>
+                        <span class="item-price blue-text strong">¥128</span>
+                    </div>
+                </div>
+
+                <div class="card-features blue-features">
+                    <h4 class="features-title">★ 关be专用脚本优势</h4>
+                    <ul>
+                        <li>更强的保护 新增功能100+ 扩展世界选项 全局崩溃 室内踢人</li>
+                        <li>目前最强的樱桃Lua 满足你的一切需求</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 樱桃脚本卡片 -->
+            <div class="price-card card-purple animate-float delay-2 featured">
+                <div class="new-badge">
+                    <span>NEW</span>
+                </div>
+                <div class="card-header purple-header">
+                    <div class="card-title-row center">
+                        <span class="card-icon purple-large">🍒</span>
+                        <h3 class="card-title purple-title">樱桃脚本<br><span class="card-subtitle purple-subtitle">CHERRY SCRIPT</span></h3>
+                    </div>
+                </div>
+
+                <div class="cherry-product glass-deep">
+                    <div class="product-icon">
+                        <div class="product-icon-bg">
+                            🍒
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name">Sovereign Lua</h4>
+                        <p class="product-tag">『Cherax 拓展Lua』</p>
+                    </div>
+                </div>
+
+                <div class="cherry-features">
+                    <div class="feature-item">
+                        <span class="feature-dot purple-dot"></span>
+                        <span>可以崩溃市面上一切菜单</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-dot purple-dot"></span>
+                        <span>全新UI升级 支持鼠标操作</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-dot purple-dot"></span>
+                        <span>更强的保护 新增功能100+</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-dot purple-dot"></span>
+                        <span>扩展世界选项 全局崩溃 室内踢人</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-dot purple-dot"></span>
+                        <span>目前最强的樱桃Lua</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-dot purple-dot"></span>
+                        <span>满足你的一切需求</span>
+                    </div>
+                </div>
+
+                <div class="cherry-footer glass-deep">
+                    <div class="footer-left">
+                        <div class="footer-tag">关be附属拓展 定期更新</div>
+                        <div class="footer-type">
+                            <span>宝贝类型</span>
+                            <span class="type-tag">永久</span>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <span class="price-symbol">¥</span>
+                        <span class="price-value">225</span>
+                    </div>
+                </div>
+
+                <button class="purchase-btn purple-btn">
+                    <span>立即购买</span>
+                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 特色服务区域 -->
+    <section id="features" class="features">
+        <div class="section-header">
+            <h2 class="section-title">为什么选择<span class="gradient-text-2">我们</span></h2>
+            <p class="section-subtitle">专业团队 · 用心服务 · 只为给你最好的体验</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card glass animate-pop">
+                <div class="feature-icon-wrap shield">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        <path d="M9 12l2 2 4-4"/>
+                    </svg>
+                </div>
+                <h3 class="feature-name">安全稳定</h3>
+                <p class="feature-desc">专属线路保障<br>稳定不掉线</p>
+            </div>
+
+            <div class="feature-card glass animate-pop delay-1">
+                <div class="feature-icon-wrap bolt">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                    </svg>
+                </div>
+                <h3 class="feature-name">高速流畅</h3>
+                <p class="feature-desc">优化加速技术<br>体验更流畅</p>
+            </div>
+
+            <div class="feature-card glass animate-pop delay-2">
+                <div class="feature-icon-wrap diamond">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 3h12l4 6-10 13L2 9l4-6z"/>
+                        <path d="M11 3L8 9l4 13 4-13-3-6"/>
+                        <path d="M2 9h20"/>
+                    </svg>
+                </div>
+                <h3 class="feature-name">专属服务</h3>
+                <p class="feature-desc">7×24小时客服<br>贴心售后</p>
+            </div>
+
+            <div class="feature-card glass animate-pop delay-3">
+                <div class="feature-icon-wrap refresh">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="23 4 23 10 17 10"/>
+                        <polyline points="1 20 1 14 7 14"/>
+                        <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+                    </svg>
+                </div>
+                <h3 class="feature-name">持续更新</h3>
+                <p class="feature-desc">词库定期更新<br>体验更丰富</p>
+            </div>
+        </div>
+
+        <div class="section-footer-note glass-note">
+            <span class="note-icon">✨</span>
+            购买后永久有效，随时使用
+            <span class="note-icon">✨</span>
+        </div>
+    </section>
+
+    <!-- 底部区域 -->
+    <footer id="contact" class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <span class="logo-icon">👑</span>
+                    <span class="logo-text">线上小玩具</span>
+                </div>
+                <p class="footer-slogan">专业脚本商城 · 品质值得信赖</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h5>产品服务</h5>
+                    <a href="#pricing">开be脚本</a>
+                    <a href="#pricing">关be脚本</a>
+                    <a href="#pricing">樱桃Lua</a>
+                </div>
+                <div class="footer-col">
+                    <h5>帮助支持</h5>
+                    <a href="#">使用教程</a>
+                    <a href="#">常见问题</a>
+                    <a href="#">联系客服</a>
+                </div>
+                <div class="footer-col">
+                    <h5>关于我们</h5>
+                    <a href="#">品牌介绍</a>
+                    <a href="#">用户协议</a>
+                    <a href="#">隐私政策</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 线上小玩具. 保留所有权利. | 专业脚本 · 稳定护航</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
